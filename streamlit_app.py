@@ -2,7 +2,6 @@ import streamlit as st
 from openai import OpenAI
 import requests
 from io import BytesIO
-import time
 
 # Initialize session state variables
 if "messages" not in st.session_state:
